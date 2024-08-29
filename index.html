@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영풍문고</title>
+    <!-- <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="css/common.css"> 
+    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="shortcut icon" href="#">
+
+
+    <script src="./js/data_main.js"></script>
+    <script src="./js/data_daily_slider.js"></script>
+    <script src="./js/data_best_slider_0.js"></script>
+    <script src="./js/data_best_slider_1.js"></script>
+    <script src="./js/data_best_slider_2.js"></script>
+    <script src="./js/data_best_slider_3.js"></script>
+    <script src="./js/data_best_slider_4.js"></script>
+    <script src="./js/data_best_slider_5.js"></script>
+    <script src="./js/data_best_slider_6.js"></script>
+    <script src="./js/data_best_slider_7.js"></script>
+    <script src="./js/data_best_slider_8.js"></script>
+
+    <script src="./js/data_new_slider_0.js"></script>
+    <script src="./js/data_new_slider_1.js"></script>
+    <script src="./js/data_new_slider_2.js"></script>
+    <script src="./js/data_new_slider_3.js"></script>
+
+    <script src="./js/data_search_slider_0.js"></script>
+    <script src="./js/data_search_slider_1.js"></script>
+    <script src="./js/data_search_slider_2.js"></script>
+    <script src="./js/data_search_slider_3.js"></script>
+
+
+    <script src="./js/books_slider.js"></script>
+    <script src="./js/benner_slider.js"></script>
+    <script src="./js/menu.js"></script>
+<!-- 
+    <script src="./js/data_best_slider_next.js"></script> -->
+
+</head>
+<body>
+    <div id="headTop">
+        <div>
+            <div id="headTopLeft">
+                <a href="#">매장안내</a>
+                <a href="#">회원혜택</a>
+                <a href="#">나우드림</a>
+            </div>
+            <div id="headTopRight">
+                <a href="#">로그인</a>
+                <a href="#">장바구니</a>
+                <a href="#">주문/배송</a>
+                <a href="#">고객센터</a>
+            </div>
+        </div>
+    </div>
+
+
+    <header>
+        <div id="headLogo">
+            <div><a href="index.html"><img src="img\logo.png"></a></div>
+        </div>
+        <div id="search">
+            <input type="text" placeholder="마침내 완성한 역사의 쓸모라는 세계">
+            <div id="searchWord">
+                <ul>
+                    <li><a href="#">피로야 가라</a></li>
+                    <li><a href="#">탕비실 빌런</a></li>
+                    <li><a href="#">쌍둥이 아기 판다</a></li>
+                    <li><a href="#">몸무게별 레시피</a></li>
+                    <li><a href="#">단단한 말</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="headAD">
+            <div id="headAdImg"><img src="img\headAD\headAD_1.jpg"></div>
+            <div id="headAdtxt">
+                <p>영풍문고 단독 특별판</p>
+                <p>두 체스 천재의 전 지구적 게임</p>
+            </div>
+        </div>
+    </header>
+
+    <!--     ================================================================            -->
+
+    <nav>
+        <div id="nevWrap">
+            <div id="allCategory">
+                <div><img src="img\icon\icon_menu.png"></div>
+                <p>전체 카테고리</p>
+            </div> 
+            <div id="leftNev">
+                <ul>
+                    <a href="#"><li>국내도서</li></a>
+                    <a href="#"><li>베스트</li></a>
+                    <a href="#"><li>신상품</li></a>
+                    <a href="#"><li>추천</li></a>
+                    <a href="#"><li>기프티콘</li></a>
+                </ul>
+            </div>
+            <div id="rightNev">
+                <a href="#"><li>이벤트</li></a>
+                <a href="#"><li>출석체크</li></a>
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <!--     ================================================================            -->
+    <div id="menu">
+        
+        <div id="menuInnerBox">
+            <div id="menuLeft">
+                <ul class="menuTitle">
+                    <!-- 대분류 -->
+                </ul>
+            </div>
+            <div id="menuCenter">
+                <!-- 소분류 -->
+            </div>
+            <div id="menuRight">
+                <img src="img\menuAD\menuAD.png">
+            </div>
+            <div id="menuBottom">
+                <div>서비스 모두 보기</div>
+                <ul>
+                    <li>출석체크</li>
+                    <li>문화행사</li>
+                    <li>매장안내</li>
+                    <li>나우드림</li>
+                    <li>이벤트</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="slider">
+
+        <div id="sliderBack"></div>
+        <span class="next">&gt;</span>
+        <span class="prev">&lt;</span>
+        <div id="sliderImg">
+            <ul class="slide">
+                <li><img src="img\mainBenner\mainBenner_7.png"></li>
+                <li><img src="img\mainBenner\mainBenner_8.png"></li>
+                <li><img src="img\mainBenner\mainBenner_9.png"></li>
+                <li><img src="img\mainBenner\mainBenner_10.png"></li>
+                <li><img src="img\mainBenner\mainBenner_11.png"></li>
+                <li><img src="img\mainBenner\mainBenner_1.png"></li>
+                <li><img src="img\mainBenner\mainBenner_2.png"></li>
+                <li><img src="img\mainBenner\mainBenner_3.png"></li>
+                <li><img src="img\mainBenner\mainBenner_4.png"></li>
+                <li><img src="img\mainBenner\mainBenner_5.png"></li>
+                <li><img src="img\mainBenner\mainBenner_6.png"></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <!--     ================================================================            -->
+    
+    <div id="shortcut">
+        <p class="title">바로가기</p>
+        <span>영풍문고 서비스</span><span>|</span><span>즐겨찾는 분야</span>
+        <div>
+            <ul id="shortcutList">
+                <a href="#">
+                    <li>
+                        <div class="shortcutIMG">
+                            <img src="img\icon\icon_check.png">
+                        </div>
+                        <p>출석체크</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <div class="shortcutIMG">
+                            <img src="img\icon\icon_culture.png">
+                        </div>
+                        <p>문화행사</p>
+                    </li>   
+                </a>
+
+                <a href="#">
+                    <li>
+                        <div class="shortcutIMG">
+                            <img src="img\icon\icon_now.png">
+                        </div>
+                        <p>매장안내</p>
+                    </li>    
+                </a>
+                <a href="#">
+                    <li>
+                        <div class="shortcutIMG">
+                            <img src="img\icon\icon_info.png">
+                        </div>
+                        <p>나우드림</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <div class="shortcutIMG">
+                            <img src="img\icon\icon_event.png">
+                        </div>
+                        <p>이벤트</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <div class="shortcutIMG">
+                            <img src="img\icon\icon_add.png">
+                        </div>
+                        <p>추가하기</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <div class="shortcutIMG">
+                            <img src="img\icon\icon_add.png">
+                        </div>
+                        <p>추가하기</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <div class="shortcutIMG">
+                            <img src="img\icon\icon_add.png">
+                        </div>
+                        <p>추가하기</p>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!--     ================================================================            -->
+ 
+    <div id="dayBooks">
+        
+        <p class="title">오늘의☀️책이에요 <span>2024.08.27</span></p>
+        <!-- 책슬라이드 -->
+        
+    </div>
+
+
+ <!--     ================================================================            -->
+
+    <div id="weekendBooks" class="slideBox">
+            
+        <p class="title">주간 베스트✨셀러예요 <span>2024.08.19 ~ 2024.08.25</span></p>
+        <div class="slideCate">
+            <ul>
+                <li class="newBooksBtn">종합</li>
+                <li>국내소설</li>
+                <li>경제경영</li>
+                <li>인문과학</li>
+                <li>비소설</li>
+                <li>어린이</li>
+                <li>외국어</li>
+                <li>자기계발</li>
+                <li>유아</li>
+            </ul>
+        </div>
+        
+        <!-- 책슬라이드 -->
+
+
+    </div>
+
+
+
+
+
+
+
+ <!--     ================================================================            -->
+
+   
+ 
+    <div id="newBooks" class="slideBox">
+                
+        <p class="title">화제의🌟신간이에요 <span>2024.08.27</span></p>
+        <div class="slideCate">
+            <ul>
+                <li class="newBooksBtn">종합</li>
+                <li>소설/에세이/시</li>
+                <li>외국어</li>
+                <li>예술</li>
+                <li>컴퓨터/IT</li>
+                <li>종교</li>
+                <li>자녀교육/건강/여행/요리</li>
+                <li>유아/어린이/초등학습</li>
+                <li>중/고학습</li>
+                <li>인문/역사</li>
+            </ul>
+        </div>
+        <!-- 책슬라이드 -->
+    </div>
+
+ <!--     ================================================================            -->
+
+    <div id="subBenner">
+        <div><img src="img\menuAD\mainAD.png"></div>
+
+        </div>
+
+
+
+ <!--     ================================================================            -->
+
+
+
+
+
+
+    <div id="popularSearch" class="slideBox">
+        
+        <p class="title">인기🔥검색어예요<span>2024.08.27</span></p>
+        <div class="slideCate">
+            <ul>
+                <li>1. 흔한남매</li>
+                <li>2. 종이접기</li>
+                <li>3. 정유정</li>
+                <li>4. 쎈 수학</li>
+                <li>5. 글쓰기</li>
+                <li>6. 괴수8호</li>
+                <li>7. 필사</li>
+                <li>8. 토익</li>
+                <li>9. 사피엔스</li>
+                <li>10. 삼국지</li>
+            </ul>
+        </div>
+        <!-- 슬라이드 영역 -->
+    </div>
+
+ <!--     ================================================================            -->
+
+    <footer>
+        <div id="footerTop">
+            <div>
+                <p>고객센터</p>
+                <h1>1544-9020</h1>
+                <table>
+                    <tr>
+                        <td>상담가능시간</td>
+                        <td>평일 09:00 ~ 18:00 / 점심시간 12:30~13:30</td>
+                    </tr>
+                    <tr>
+                        <td>대표 메일</td>
+                        <td>customer@ypbooks.co.kr</td>
+                    </tr>
+                    <tr>
+                        <td>대량 주문</td>
+                        <td>webmaster@ypbooks.co.kr</td>
+                    </tr>
+                </table>
+                <span>FAQ &gt;</span>
+                <span>1:1고객상담 &gt;</span>
+                <span>입점문의 &gt;</span>
+            </div>
+
+            <div>
+                <ul class="footerTopList">
+                    <li>영풍문고
+                        <ul class="footerTopListSub">
+                            <li>회사소개</li>
+                            <li>전국지점 안내</li>
+                            <li>나우드림</li>
+                        </ul>
+                    </li>
+                    <li>비즈니스
+                        <ul class="footerTopListSub">
+                            <li>입점문의</li>
+                            <li>광고안내</li>
+                            <li>출판사통합관리 SCM</li>
+                        </ul>
+                    </li>
+                    <li >쇼핑도우미
+                        <ul class="footerTopListSub">
+                            <li>도서검색</li>
+                            <li>회원등급혜택</li>
+                            <li>주문/배송</li>
+                            <li>취소/교환/환불</li>
+                            <li>적립금 사용</li>
+                            <li>교환권 사용</li>
+                            <li>청약 철회</li>
+                        </ul>
+                    </li>
+                    <li>고객센터
+                        <ul class="footerTopListSub">
+                            <li>1:1 고객상담</li>
+                            <li>FAQ</li>
+                            <li>공지사항</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="footerBottom">
+            <div>
+                <img src="img\logo.png"> 
+            </div>
+            <div>
+                <ul class="FB1">
+                    <li>이용약관</li>
+                    <li>개인정보방침</li>
+                    <li>영상정보관리방침</li>
+                    <li>청소년보호정책</li>
+                    <li>이메일 무단 수집거부</li>
+                </ul>
+                <ul class="FB2">
+                    <li>(주) 영풍문고</li>
+                    <li>주소 <span>서울특별시 종로구 청계천로 41 (우)03188</span></li>
+                    <li>대표이사<span>김경환</span></li>
+                </ul>
+                <ul class="FB3">
+                    <li>사업자 등록번호<span>773-86-01800<span>사업자정보확인</span></span></li>
+                    <li>통신판매등록번호<span>2023-서울종로-0130</span></li>
+                    <li>개인정보관리 책임자<span>조순제</span></li>
+                </ul>
+                <p>COPYRIGHT © YOUNGPOONG BOOKSTORE INC. ALL RIGHTS RESERVED.</p>
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+</body>
+</html>ㄴ

@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+* {margin: 0;  box-sizing: border-box; font-family: Pretendard,sans-serif; }
+a {text-decoration: none; color: #000;}
+ul, ol, li {list-style: None; margin: 0; padding: 0; display: flex}
+.bold{font-weight: bold;}
+.title {font-size: 20px; color: gray; font-weight: 600;}
+
+
+#headTop {background-color: rgb(228, 228, 228); width: 100%; height: 40px; margin: 0 auto; border-bottom: 0.5px solid gray; }
+header { width: 1200px; height: 200px; margin: 0 auto; padding: 30px 0 0 0 ;}
+nav { width: 100%; height: 50px; margin: 0 0; border-bottom: 0.5px solid white; background-color: pink;}
+#slider { width: 100%; height: 500px; margin: 0 auto; position: relative;}
+
+
+footer {background-color: #ebebeb; width: 100%; height: 500px; margin: 0 auto;}
+
+
+/* headTop */
+#headTop > div {width: 1200px; height: 40px; margin:0 auto;}
+#headTopLeft { float: left; width: 500px; height: 100%;}
+#headTopLeft > a {display: inline-flex; margin: 10px 20px 0 0; color: gray; font-size: 13px;}
+#headTopRight { float: right;width: 500px; height: 100%;}
+#headTopRight > a {display: inline-flex; margin: 10px 0 0 20px; float: right; color: gray;  font-size: 13px;}
+
+
+/* header */
+/* 로고 */
+#headLogo { height: 140px; width: 200px; float: left; display: flex;
+    margin: 0 0 px;}
+#headLogo > div{ height: 80px; width: 180px; margin-left:20px; margin-top: 30px}
+
+/* 검색창 */
+#search {height: 140px; width: 700px; float: left; margin: 0 0 0 50px; }
+#search input { height: 50px; width: 600px; border: 0.5px solid gray; border-radius: 10px; margin: 50px 0px 0px 50px; padding-left: 20px; }
+#searchWord { height: 20px; width: 600px; float: left; margin: 5px 50px; }
+#searchWord li a {margin-right: 20px; font-size: 13px; color: gray;}
+
+/* 광고 */
+#headAD {height: 140px; width: 250px; float: right; display: flex; padding: 20px 0;}
+#headAdImg {height: 100px; width: 80px;}
+#headAdImg > img {height: 100%}
+#headAdtxt {height: 100px; width: 170px;}
+#headAdtxt p:first-child { height: 20px; width: 150px; font-size: 13px; color: gray; margin: 15px 0 0 10px;}
+#headAdtxt p:last-child {height: 20px; width: 150px; font-size: 14px; color: gray; font-weight: bold; margin: 5px 10px 0 10px;}
+
+
+/* nav */
+#nevWrap {width: 1200px; height: 50px; margin: 0 auto;}
+#allCategory {height: 50px; width: 150px; float: left; padding-top: 10px; color: white; }
+#allCategory {cursor: pointer;}
+#allCategory > div {height: 30px; width: 30px;float: left;} 
+#allCategory > div > img {height: 100%; }
+#allCategory > p {float: left;height: 30px; width: 110px; text-align: center; padding-top:3px; font-weight: 1000;}
+
+#leftNev { height: 50px; width: 500px; float: left; padding-top: 10px;}
+#leftNev li { height: 30px;  float: left; margin-left:30px; font-weight: 900; color: white; padding-top:3px;}
+
+#rightNev { height: 50px; width: 400px; float: right; padding-top: 10px;}
+#rightNev li { height: 30px;  float: right; margin-left:30px; font-weight: 900; color: white; padding-top:3px;}
+
+/* menu */
+
+#menu {display: none; height: 500px; width: 100%; position: absolute; z-index: 100;  color: rgb(63, 63, 63); background-color: white;}
+#menuInnerBox {height: 500px; width: 1200px; margin: 0 auto;}
+#menuLeft {height: 450px; width: 150px; float: left; background-color:rgb(240, 240, 240)}
+#menuCenter {height: 450px; width: 550px; float: left;}
+#menuRight {height: 450px; width: 500px; float: left;}
+#menuRight > img {height: 100%; float: right;}
+#menuBottom  {height: 50px; width: 1200px; display: inline-block; background-color:rgb(240, 240, 240)}
+#menuBottom > div {background-color: gray; color: white; height: 50px; width: 150px; float: left; padding:15px 0 0 10px;}
+#menuBottom > ul {height: 50px; width: 1050px; float: left; font-size: 13px; padding-top: 15px;}
+#menuBottom > ul > li {margin: 0 10px;}
+
+
+.menuTitle {display:block; }
+.menuTitle > li {height: 50px; width: 150px; padding: 13px 10px; cursor: pointer;}
+.menuTitle > li:first-of-type {background-color: white;}
+
+
+.menuSub {height: 100%; width: 500px; display: inline-block; font-size: 11px; padding-top: 10px;}
+.menuSub li {color: gray; height: 30px; width: 220px; writing-mode: horizontal-tb;  padding-top: 5px; padding-left: 10px;
+    float: left;}
+.menuSub:last-child li {width: 150px; height: 25px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+#footerTop {width: 1200px; height: 250px; margin: 0 auto; padding-top: 20px; }
+
+#footerTop > div:first-of-type {height: 200px; width: 500px; float: left; }
+#footerTop > div:first-of-type > p {margin-bottom: 10px; color:rgb(63, 63, 63);} 
+#footerTop > div:first-of-type > h1 {color:rgb(63, 63, 63);} 
+#footerTop > div:first-of-type > table {font-size: 13px; margin: 10px 0 20px 0; }
+#footerTop > div:first-of-type > span {border-radius: 10px; padding: 5px; background-color: silver;}
+
+#footerTop > div:last-of-type {height: 200px; width: 600px; float: right;}
+.footerTopList > li { float:left; width:25%; display: block; font-weight: 600; color: rgb(63, 63, 63);}
+
+.footerTopListSub {display: block}
+.footerTopListSub > li { font-size: 13px; font-weight: 100; line-height: 20px; margin-top: 5px; color: gray;}
+
+
+#footerBottom {width: 1200px; height: 200px;margin: 0 auto;  border-top: 2px solid gray; padding-top: 50px; color: gray;}
+#footerBottom > div:first-of-type {height: 100px; width: 150px; float: left; margin-top: 20px;}
+#footerBottom > div:first-of-type img {width: 100%;}
+
+
+#footerBottom > div:last-of-type {height: 150px; width: 800px; float:left; margin-left: 20px; margin-top: 20px;}
+
+
+.FB1 {width: 100%; color: rgb(63, 63, 63); font-weight: 700; }
+.FB1 > li {margin-right: 10px;}
+.FB1 li:not(:first-child) {border-left: 0.5px solid gray; padding-left: 10px;}
+
+.FB2 {margin-top: 20px; font-size: 13px; font-weight: 550; color: gray;}
+.FB2 > li {margin-right: 10px;}
+.FB2 li:not(:first-child) {border-left: 0.5px solid gray; padding-left: 10px;}
+.FB2 span {margin-left: 10px;}
+
+.FB3 {margin-top: 10px; font-size: 13px; font-weight: 550; color: gray;}
+.FB3 > li {margin-right: 10px;}
+.FB3 li:not(:first-child) {border-left: 0.5px solid gray; padding-left: 10px;}
+.FB3 > li > span {margin-left: 10px;}
+
+#footerBottom > div:last-of-type > p {margin-top: 30px; color: gray; font-size: 15px;}
+
+
+
+
+
+
+
+
+

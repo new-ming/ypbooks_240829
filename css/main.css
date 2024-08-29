@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+#shortcut { width: 1200px; height: 300px; margin: 0 auto;}
+#dayBooks {width: 1300px; height: 500px; margin: 0 auto;}
+#weekendBooks { width: 1300px; height: 500px; margin: 0 auto;}
+#newBooks {width: 1300px; height: 500px; margin: 0 auto;}
+#subBenner {background-color: #232323; width: 100%; height: 150px;}
+#subBenner div { width: 1350px; height: 150px; margin: 0 auto;}
+#subBenner img { height: 100%; margin: 0 auto;}
+#popularSearch  { width: 1300px; height: 500px; margin: 0 auto;}
+
+
+
+
+/* slider */
+#slider span {display: block; height: 50px; width: 50px; font-size: 30px; color: white; border-radius: 100%; text-align: center; background-color: rgba(80, 79, 79, 0.459);}
+#sliderBack {background-color :pink; height: 350px; width: 100%; position: absolute;} 
+#sliderImg {height: 410px; width: 750px; display: flex; position: absolute; left: 50%; margin-left: -375px; margin-top: 30px;} 
+
+.slide { width: 100%; height:100%; float: left; margin-left: -3765px;}
+.slide li { width: 100%; height:100%; margin: 0 50px; }
+#slider img {height: 100%; border-radius: 30px; }
+
+.prev:hover {cursor: pointer;}
+.next:hover {cursor: pointer;}
+.prev {position: absolute; z-index:5; left: 50%; top: 50%; transform: translate(-400px,-25px)}
+.next {position: absolute; z-index:5; left: 50%; top: 50%; transform: translate(350px,-25px)}
+
+/* shortcut */
+#shortcut {padding-top: 20px; padding-left: 10px;}
+#shortcut p[class="title"] { margin: 10px 0px; }
+#shortcut span{ margin-right: 10px; font-size: 13px; color: gray;}
+#shortcut > span:first-of-type {color: green;}
+
+
+#shortcutList li { height: 100px; width: 70px; display: block; margin: 40px;}
+#shortcutList li:first-of-type {margin-left: 0;}
+.shortcutIMG { height: 70px; width: 70px;; border-radius: 100%;} 
+.shortcutIMG > img {height: 100%;}
+#shortcutList p { text-align: center; font-size: 13px; color: gray; margin-top: 10px;}
+
+
+/* dayBooks */
+
+/* 슬라이드+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* .slideBox > .bookSlide {display: none;}
+.slideBox > .bookSlide:nth-of-type(0) {display: block;} */
+
+
+.title {line-height: 45px; margin: 0px 0px 0px 60px;}
+.title > span{color: rgb(167, 167, 167); font-size: 12px;}
+
+.slideCate {height: 50px; width: 1200px; margin: 0 auto; padding-left: 10px;}
+.slideCate li {background-color: rgb(226, 226, 226); color: gray; border-radius: 30px; padding: 10px; margin: 7px 10px 0 0;}
+.slideCate li:hover {cursor: pointer;}
+.slideCate li:first-child {background-color : #2bb673; color:white}
+
+
+
+
+.bookSlidePrev {height: 400px; width: 50px; display: flex; float: left;}
+.bookSlidePrev span {background-color: #8b8b8b5b; display: block; height: 50px; width: 50px; font-size: 30px; margin-top: 175px; color: white; border-radius: 100%; text-align: center;}
+.bookSlidePrev span:hover {cursor: pointer;}
+
+.bookSlideNext { height: 400px; width: 50px; display: flex; float: right;}
+.bookSlideNext span {background-color: #8b8b8b5b; display: block; height: 50px; width: 50px; font-size: 30px; margin-top: 175px; color: white; border-radius: 100%; text-align: center;}
+.bookSlideNext span:hover {cursor: pointer;}
+
+
+.bookSlide {height: 400px; width: 1200px; display: flex; float: left; overflow: hidden;}
+.wrap { height: 400px; width: 1200px; float: left;  display: flex;}
+.booksWrap { height: 400px; width: 1200px; float: left; display: flex;} 
+
+.books { height: 350px; width: 200px; float: left; margin: 20px;}
+.books > a {position: relative;}
+.books:hover .booksHover {display: block;}
+
+.booksWrap > div:first-of-type {margin-left: 20px;}
+.booksImg { height: 300px; width: 200px; position: absolute;}
+.booksImg > img { height: 100%; width: 100%; border-radius: 10px 30px 30px 10px;}
+
+
+.bookTitle {  font-size: 15px; font-weight: 600; color: gray; position: absolute;  writing-mode: horizontal-tb;
+    height: 20px; width: 200px; margin-top: 310px;}
+.author { font-size: 13px; font-weight: 600; color: rgb(167, 167, 167); height: 20px; position: absolute;
+    width: 200px; height: 15px; margin-top: 330px; }
+
+.booksHover {background-color: black; height: 300px; width: 200px; opacity: 60%; position: absolute; display:none; border-radius: 10px 30px 30px 10px;}
+.hoverText {width: 160px; height: 200px; margin: 20px; color: white; font-size: 13px;}
+.hoverView {width: 40px; height: 40px; margin: 0px 0px 0px 53px; border: 2px solid white; float: left; color: white; text-align: center; font-weight: 600; font-size: 13px; padding-top: 7px;}
+.hoverCart {width: 40px; height: 40px; margin: 0px 0px 0px 10px; border: 2px solid white; float: left; color: white; text-align: center; font-weight: 600; font-size: 13px; padding-top: 7px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
